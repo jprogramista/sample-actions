@@ -3,7 +3,10 @@
 
 name: Build Artifact
 
-on: [push]
+on:
+  push:
+    branches:
+      - new-branch
 
 jobs:
   build:
